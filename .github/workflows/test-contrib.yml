@@ -25,6 +25,7 @@ jobs:
               }
             );
             console.log(contributors);
+            
 
             const isAlreadyContributor = contributors.some(contributor => contributor.login === prAuthor);
             console.log(isAlreadyContributor);
